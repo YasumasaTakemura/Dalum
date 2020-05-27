@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+        "lib": ["DOM", "ESNext"],
+        "sourceMap": true,
+        "strict": true,  
+        "moduleResolution": "node",
+        "outDir":"dist",
+        "noImplicitAny": true,
+        "module": "ES6",
+        "target": "ES5",
+        "allowJs": true,
+    },
+    "include": [
+        "src/**/*"
+    ],
+    "exclude": [
+        "node_modules",
+        "**/*.spec.ts"
+    ]
+}
